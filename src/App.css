@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menus {
+  margin: 0;
+  padding-top: 16px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  height: 50px;
+}
+
+.menu {
+  margin-left: 10px;
+  font-size: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu:hover {
+  color: rgb(84, 82, 82);
+  text-decoration: underline;
+}
+
+.allheight {
+  height: 700px;
+}
+
+.headline {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* #skills {
+  background-color: rgb(195, 245, 244);
+  height: 700px;
+} */
+
+/* .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+} */
+
+.listwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listwork-container {
+  width: 40%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.contact-table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-item {
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.contact-body {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.txt {
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 0.67em;
+  border-color: rgb(102, 99, 99);
+  outline-color: rgb(182, 180, 180);
+}
+
+.details {
+  width: 100%;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 0.67em;
+  border-color: rgb(102, 99, 99);
+  outline-color: rgb(182, 180, 180);
+  resize: none;
+}
+
+.contact-submit {
+  width: 150px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 100vh;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  background-color: rgb(182, 180, 180);
+  transform: scale(1.05);
+}
